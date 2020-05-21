@@ -12,7 +12,7 @@ public class BaseClass {
 	public static WebDriver startApplication(WebDriver driver,String browserName,String appURL)
 	{
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Neelamadhaba\\git\\selenium-testscripts\\FrameWork\\Drivers\\chromedriver.exe");
 		    driver= new ChromeDriver();
 		    
 		    
